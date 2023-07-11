@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T12:44:27.714Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-gGJvXF5vF0GEz__oVlU" version="21.6.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-07-11T12:55:07.615Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="GtOgwrzJX3tJ5dG67Rwy" version="21.6.1" type="github" pages="4">
   <diagram name="ovs内核模块" id="A7m8q6VK8YOgvWmJyiGt">
     <mxGraphModel dx="2079" dy="2012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -210,6 +210,12 @@
         </mxCell>
         <mxCell id="OaGhoukECwfPdfjtdQFT-5" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 24px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #000000;&quot;&gt;dev_queue_xmit&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="200" y="590" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OaGhoukECwfPdfjtdQFT-8" value="ovs_lock" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OaGhoukECwfPdfjtdQFT-9" value="rcu_data_lock" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="950" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
