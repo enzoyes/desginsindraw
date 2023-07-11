@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T03:40:39.419Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="imegSwZNxNCOmUtCwAoa" version="21.6.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-07-11T03:41:50.223Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="QJwOBpGqHh_f7CZeiO_-" version="21.6.1" type="github" pages="3">
   <diagram name="ovs内核模块" id="A7m8q6VK8YOgvWmJyiGt">
     <mxGraphModel dx="1252" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,6 +41,17 @@
         <mxCell id="jp2IF95F6a1i_jXeVOt_-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jp2IF95F6a1i_jXeVOt_-13" target="jp2IF95F6a1i_jXeVOt_-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="jp2IF95F6a1i_jXeVOt_-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jp2IF95F6a1i_jXeVOt_-13" target="jp2IF95F6a1i_jXeVOt_-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jp2IF95F6a1i_jXeVOt_-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jp2IF95F6a1i_jXeVOt_-13" target="jp2IF95F6a1i_jXeVOt_-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="400" />
+              <mxPoint x="880" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="jp2IF95F6a1i_jXeVOt_-13" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 24px;&quot;&gt;ovs_dp_process_packet&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="380" width="220" height="40" as="geometry" />
         </mxCell>
@@ -53,8 +64,12 @@
         <mxCell id="jp2IF95F6a1i_jXeVOt_-17" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 24px;&quot;&gt;ovs_flow_tbl_lookup_stats&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="370" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jp2IF95F6a1i_jXeVOt_-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jp2IF95F6a1i_jXeVOt_-19" target="jp2IF95F6a1i_jXeVOt_-23">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="jp2IF95F6a1i_jXeVOt_-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.015;entryY=0.642;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="jp2IF95F6a1i_jXeVOt_-19" target="jp2IF95F6a1i_jXeVOt_-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280" y="509" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="jp2IF95F6a1i_jXeVOt_-27" value="OVS_PACKET_CMD_MISS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jp2IF95F6a1i_jXeVOt_-24">
           <mxGeometry x="-0.1333" y="4" relative="1" as="geometry">
@@ -66,26 +81,23 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jp2IF95F6a1i_jXeVOt_-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jp2IF95F6a1i_jXeVOt_-19" target="jp2IF95F6a1i_jXeVOt_-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="jp2IF95F6a1i_jXeVOt_-19" value="in kernel?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1241" y="360" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jp2IF95F6a1i_jXeVOt_-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jp2IF95F6a1i_jXeVOt_-23" target="jp2IF95F6a1i_jXeVOt_-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jp2IF95F6a1i_jXeVOt_-23" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 24px;&quot;&gt;ovs_vport_find_upcall_portid&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jp2IF95F6a1i_jXeVOt_-23" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 24px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1126" y="160" width="310" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="jp2IF95F6a1i_jXeVOt_-25" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1221" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jp2IF95F6a1i_jXeVOt_-28" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 24px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1620" y="500" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jp2IF95F6a1i_jXeVOt_-29" value="ovs_dp_upcall" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1221" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jp2IF95F6a1i_jXeVOt_-34" value="ovs_vport_find_upcall_portid" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="470" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
