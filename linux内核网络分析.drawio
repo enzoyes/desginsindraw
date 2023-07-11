@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T13:00:53.376Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="EYwrg9x-jVxfDrC6OWcz" version="21.6.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-07-11T13:24:17.472Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="M5QolJ4gI6XW7R42_Hse" version="21.6.1" type="github" pages="4">
   <diagram name="ovs内核模块" id="A7m8q6VK8YOgvWmJyiGt">
     <mxGraphModel dx="2079" dy="2012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -239,6 +239,9 @@
         </mxCell>
         <mxCell id="Tq3AXAwzYY0bZsJbuYO_-4" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 24px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #795e26;&quot;&gt;ovs_ct_clear&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="510" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Tq3AXAwzYY0bZsJbuYO_-8" value="ovs_ct_nat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="620" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
