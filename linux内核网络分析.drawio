@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T04:04:49.086Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="b4eAeqIXDshFLh1TUdRC" version="21.6.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-07-11T12:17:41.399Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4D8soOMy6CMtKP5RZThx" version="21.6.1" type="github" pages="4">
   <diagram name="ovs内核模块" id="A7m8q6VK8YOgvWmJyiGt">
-    <mxGraphModel dx="2079" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2079" dy="2012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -209,6 +209,20 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0ZixvtmyGThO1Pi_kdvC" name="ovs">
+    <mxGraphModel dx="1252" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="91WiP5HPjVUiFhvgNIOc-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img1.sdnlab.com/image/jpg/2017/03/03ovs%20inner%20jiagou.png;" vertex="1" parent="1">
+          <mxGeometry x="60" y="50" width="546" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="91WiP5HPjVUiFhvgNIOc-2" value="&lt;ul style=&quot;margin: 25px 5px; padding: 0px; font-family: &amp;quot;open sans&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;; color: rgb(51, 51, 51); list-style: inside square; display: block; font-size: 16px; line-height: 26px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li style=&quot;margin: 0px; padding: 3px 5px; font-family: &amp;quot;open sans&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;; color: rgb(51, 51, 51); list-style: inside disc;&quot;&gt;ovs-vswitchd 主要模块，实现vswitch的守候进程daemon；&lt;/li&gt;&lt;li style=&quot;margin: 0px; padding: 3px 5px; font-family: &amp;quot;open sans&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;; color: rgb(51, 51, 51); list-style: inside disc;&quot;&gt;ovsdb-server 轻量级数据库服务器,用于ovs的配置信息；&lt;/li&gt;&lt;li style=&quot;margin: 0px; padding: 3px 5px; font-family: &amp;quot;open sans&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;; color: rgb(51, 51, 51); list-style: inside disc;&quot;&gt;ovs-vsctl 通过和ovsdb-server通信，查询和更新vswitch的配置；&lt;/li&gt;&lt;li style=&quot;margin: 0px; padding: 3px 5px; font-family: &amp;quot;open sans&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;; color: rgb(51, 51, 51); list-style: inside disc;&quot;&gt;ovs-dpctl 用来配置vswitch内核模块的一个工具；&lt;/li&gt;&lt;li style=&quot;margin: 0px; padding: 3px 5px; font-family: &amp;quot;open sans&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;; color: rgb(51, 51, 51); list-style: inside disc;&quot;&gt;ovs-appctl 发送命令消息到ovs进程；&lt;/li&gt;&lt;li style=&quot;margin: 0px; padding: 3px 5px; font-family: &amp;quot;open sans&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;; color: rgb(51, 51, 51); list-style: inside disc;&quot;&gt;ovs-ofctl 查询和控制OpenFlow虚拟交换机的流表；&lt;/li&gt;&lt;li style=&quot;margin: 0px; padding: 3px 5px; font-family: &amp;quot;open sans&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;; color: rgb(51, 51, 51); list-style: inside disc;&quot;&gt;datapath 内核模块，根据流表匹配结果做相应处理；&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="350" width="560" height="300" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
