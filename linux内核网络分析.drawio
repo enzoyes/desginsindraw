@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-12T02:09:25.191Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="QV2SWAtp4mKqzNQG4jKi" version="21.6.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-07-12T02:13:14.579Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Qn_O8ZhqdZwbRaTigljb" version="21.6.1" type="github" pages="4">
   <diagram name="ovs内核模块" id="A7m8q6VK8YOgvWmJyiGt">
     <mxGraphModel dx="2079" dy="2012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -234,8 +234,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="dfpsIat1gzfPHGOoKFcL-12" value="不分片" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfpsIat1gzfPHGOoKFcL-4">
+          <mxGeometry x="0.0166" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfpsIat1gzfPHGOoKFcL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dfpsIat1gzfPHGOoKFcL-2" target="dfpsIat1gzfPHGOoKFcL-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-413" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfpsIat1gzfPHGOoKFcL-11" value="分片" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dfpsIat1gzfPHGOoKFcL-10">
+          <mxGeometry x="0.2424" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="dfpsIat1gzfPHGOoKFcL-2" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 24px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #795e26;&quot;&gt;do_output&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-73" y="570" width="120" height="50" as="geometry" />
+          <mxGeometry x="-473" y="570" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dfpsIat1gzfPHGOoKFcL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dfpsIat1gzfPHGOoKFcL-5" target="dfpsIat1gzfPHGOoKFcL-1">
           <mxGeometry relative="1" as="geometry" />
@@ -247,10 +264,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dfpsIat1gzfPHGOoKFcL-7" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 24px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #795e26;&quot;&gt;do_execute_actions&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-420" y="570" width="210" height="50" as="geometry" />
+          <mxGeometry x="-820" y="570" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dfpsIat1gzfPHGOoKFcL-9" value="&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 24px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #0070c1;&quot;&gt;OVS_ACTION_ATTR_OUTPUT&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="600" width="250" height="50" as="geometry" />
+          <mxGeometry x="-640" y="600" width="250" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
