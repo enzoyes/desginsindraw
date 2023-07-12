@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-12T02:23:32.560Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="BCADDQCM6qMC4yDTeDI1" version="21.6.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-07-12T02:28:34.407Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UFIfBHrFPbL1jrfrN8SV" version="21.6.1" type="github" pages="4">
   <diagram name="ovs内核模块" id="A7m8q6VK8YOgvWmJyiGt">
     <mxGraphModel dx="2079" dy="2012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -217,7 +217,7 @@
         <mxCell id="OaGhoukECwfPdfjtdQFT-8" value="ovs_lock" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="860" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OaGhoukECwfPdfjtdQFT-9" value="rcu_data_lock" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OaGhoukECwfPdfjtdQFT-9" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 24px;&quot;&gt;rcu_read_lock&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="320" y="950" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OaGhoukECwfPdfjtdQFT-10" value="ovs_mutex" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
