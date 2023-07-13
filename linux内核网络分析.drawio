@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-12T09:12:12.958Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="0PdX_SkcCD_FFSbTQKJE" version="21.6.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-07-13T07:42:24.263Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="15kpYyN4zB5al5k3kHN6" version="21.6.1" type="github" pages="6">
   <diagram name="ovs内核模块" id="A7m8q6VK8YOgvWmJyiGt">
     <mxGraphModel dx="2079" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -511,6 +511,25 @@
         </mxCell>
         <mxCell id="91WiP5HPjVUiFhvgNIOc-4" value="&lt;p style=&quot;margin: 0px 0px 28px; padding: 0px; font-family: &amp;quot;open sans&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;; color: rgb(51, 51, 51); width: 813px; text-align: left; line-height: 30px; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;vswitchd是ovs主要的用户态程序，它从ovsdb-server读取配置并发送到ofproto层，也从ofproto读取特定的状态和统计信息并发送到数据库；&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 28px; padding: 0px; font-family: &amp;quot;open sans&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;; color: rgb(51, 51, 51); width: 813px; text-align: left; line-height: 30px; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;ofproto是openflow的接口层，负责和Openflow controller通信并通过ofproto_class与ofproto provider底层交互；&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 28px; padding: 0px; font-family: &amp;quot;open sans&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;; color: rgb(51, 51, 51); width: 813px; text-align: left; line-height: 30px; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;ofproto-dpif是ofproto接口类的具体实现；&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 28px; padding: 0px; font-family: &amp;quot;open sans&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;; color: rgb(51, 51, 51); width: 813px; text-align: left; line-height: 30px; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;netdev是ovs系统的网络设备抽象（比如linux的net_device或交换机的port），netdev_class定义了netdev-provider的具体实现需要的接口，具体的平台实现需要支持这些统一的接口，从而完成netdev设备的创建、销毁、打开、关闭等一系列操作；&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1030" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UwuFC4Q_wSuoBBHXEiat" name="iptables">
+    <mxGraphModel dx="1252" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zU59SNW76NCO2E31T88x" name="sriov">
+    <mxGraphModel dx="1252" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Xwy-DxZbs3EPAItPf-jQ-1" value="drivers/pci/iov.c" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="130" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
