@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T06:55:08.194Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ofTJ-jQZ5-wufCq0x8m6" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-20T06:56:11.044Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="m70zyibBbbx0UpfHix7k" version="21.7.2" type="github">
   <diagram name="第 1 页" id="s7CzReBOw8vYEQgI-hQS">
     <mxGraphModel dx="1184" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,8 +22,8 @@
         <mxCell id="vCCV_5shbb-xV2NnZklQ-12" value="9.20" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="180" y="300" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vCCV_5shbb-xV2NnZklQ-13" value="Gesture-Speech Dataset&lt;br&gt;Trinity Speech-Gesture I/II&lt;br&gt;Talking With Hands&lt;br&gt;Talking With Hands GENEA Extension等具备bvh和wav的处理完成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="220" width="230" height="70" as="geometry" />
+        <mxCell id="vCCV_5shbb-xV2NnZklQ-13" value="Gesture-Speech Dataset&lt;br&gt;Trinity Speech-Gesture I/II&lt;br&gt;Talking With Hands&lt;br&gt;Talking With Hands GENEA Extension等已经下载好的具备bvh和wav的处理完成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="vCCV_5shbb-xV2NnZklQ-14" value="BEAT中文数据集处理基本完成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="270" width="100" height="30" as="geometry" />
@@ -51,6 +51,21 @@
         </mxCell>
         <mxCell id="vCCV_5shbb-xV2NnZklQ-23" value="10.15" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="405" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vCCV_5shbb-xV2NnZklQ-26" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="350" y="55" width="20" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="vCCV_5shbb-xV2NnZklQ-27" value="动画首帧ROOT zero-shot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="110" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vCCV_5shbb-xV2NnZklQ-28" value="动画朝向归一化" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="140" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vCCV_5shbb-xV2NnZklQ-29" value="textgrid补齐，语言识别" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="185" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vCCV_5shbb-xV2NnZklQ-30" value="COS数据关联与数据库重构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="65" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
