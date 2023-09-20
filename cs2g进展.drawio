@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T07:40:24.915Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Mqo2bge51S5pr_lY7esE" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-20T08:05:43.163Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="EOddfRPyGDripK3N2YUx" version="21.7.2" type="github">
   <diagram name="第 1 页" id="s7CzReBOw8vYEQgI-hQS">
     <mxGraphModel dx="789" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
         <mxCell id="vCCV_5shbb-xV2NnZklQ-20" value="textgrid补齐，语言识别" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="178" y="160" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vCCV_5shbb-xV2NnZklQ-21" value="采样率，比特率，单通道/立体声" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="vCCV_5shbb-xV2NnZklQ-21" value="采样率，比特率，单通道/立体声" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="175" y="194" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vCCV_5shbb-xV2NnZklQ-22" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
@@ -70,7 +70,7 @@
         <mxCell id="vCCV_5shbb-xV2NnZklQ-31" value="采样率，比特率，单通道/立体声" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370.5" y="151" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vCCV_5shbb-xV2NnZklQ-32" value="动画和video的同步检测" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="vCCV_5shbb-xV2NnZklQ-32" value="动画和video的同步检测" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="175" y="229" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vCCV_5shbb-xV2NnZklQ-33" value="动画和video的同步检测" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
