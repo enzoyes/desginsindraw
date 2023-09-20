@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T07:12:38.932Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="wttgVaWiMIMqegTH3LyG" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-20T07:13:18.282Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="fjXlQg2sbL9xhnOgTKKD" version="21.7.2" type="github">
   <diagram name="第 1 页" id="s7CzReBOw8vYEQgI-hQS">
     <mxGraphModel dx="1184" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,25 +53,28 @@
           <mxGeometry x="405" y="300" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vCCV_5shbb-xV2NnZklQ-26" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="350" y="55" width="20" height="160" as="geometry" />
+          <mxGeometry x="350" y="44" width="20" height="165" as="geometry" />
         </mxCell>
         <mxCell id="vCCV_5shbb-xV2NnZklQ-27" value="动画首帧ROOT zero-shot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="358" y="92" width="150" height="30" as="geometry" />
+          <mxGeometry x="366.5" y="62" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vCCV_5shbb-xV2NnZklQ-28" value="动画朝向归一化" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="364" y="122" width="150" height="30" as="geometry" />
+          <mxGeometry x="372.5" y="92" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vCCV_5shbb-xV2NnZklQ-29" value="textgrid补齐，语言识别" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="365" y="151" width="150" height="30" as="geometry" />
+          <mxGeometry x="373.5" y="121" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vCCV_5shbb-xV2NnZklQ-30" value="COS数据关联与数据库重构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="60" width="150" height="30" as="geometry" />
+          <mxGeometry x="368.5" y="30" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vCCV_5shbb-xV2NnZklQ-31" value="采样率，比特率，单通道/立体声" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="364" y="185" width="180" height="30" as="geometry" />
+          <mxGeometry x="368.5" y="151" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vCCV_5shbb-xV2NnZklQ-32" value="动画和video的同步检测" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="175" y="229" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vCCV_5shbb-xV2NnZklQ-33" value="动画和video的同步检测" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="368.5" y="185" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
